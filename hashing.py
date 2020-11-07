@@ -5,7 +5,7 @@ h = hashlib.sha1()
 
 with open (filename, 'rb') as file:
 chunk=0
-while chun !=b'':
+while chunk !=b'':
 chunk=file.red(1024)
 h.update(chunk)
 return h.hexdigest()
